@@ -1,0 +1,13 @@
+test_login:
+  test_login_001:
+     username: "ljh123"
+     password: "123456"
+     toast: Null
+  test_login_002:
+     username: "ljh123"
+     password: "123"
+     toast: "登录密码错误"
+  test_login_003:
+     username: "345"
+     password: "123456"
+     toast: "此用户不存在"
